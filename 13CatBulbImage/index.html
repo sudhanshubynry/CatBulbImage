@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CatBulbImage</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="script.js"></script> -->
+  </head>
+  <body>
+    <div class="cat-bulb-image-bg-container">
+      <div class="image-card">
+        <img
+          class="bulb-image"
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/bulb-go-on-img.png"
+          alt="img"
+          id="bulbImage"
+        />
+        <img
+          id="catImage"
+          class="cat-image"
+          src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/cat-img.png"
+          alt="img"
+        />
+      </div>
+      <div class="text-card">
+        <h1 class="switched-on-heading" id="switchedOnHeading">Switched On</h1>
+        <button class="switch-off" onclick="switchOff()" id="ButtonOff">OFF</button>
+        <button class="switch-on" onclick="switchOn()" id="ButtonOn">ON</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
